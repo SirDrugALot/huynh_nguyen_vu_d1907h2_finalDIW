@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding:0;
+}
+/*Phone responsive*/
+-webkit @media screen ;
+-moz @media screen and (-webkit-min-device-pixel-ratio:0);
+	@media screen and (max-width:414px) {
+	h1 {
+		color: black;
+		padding: 15%;
+	}
+}
+/*MENU*/
+
+.dropdown
+{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content
+{ 
+display: none;
+position: absolute;
+z-index: 1;
+list-style: none;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+}
+
+/*cover*/
+
+.cover
+{
+ background-size: cover;
+ height: 100vh;
+}
+
+/*slider*/
+.carousel-inner
+{
+	padding-top:5%;
+	padding: 5%;
+	padding-bottom:5%;
+}
+.carousel-indicators .active
+{
+	background-color: #D7A975;
+	background-blend-mode: color-burn;
+	background-size: 1px;
+}
+
+/*card*/
+.col-md-6
+{
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+.centerBlock {
+	
+     display:block;
+     margin-left: auto;
+	margin-right: auto;
+}
+
+/*app*/
+.app-text{
+ position: absolute;
+ text-align: center;
+ top: 50%;
+ left: 50%;
+transform: translate(-50%, -50%);
+/*animate*/
+}
